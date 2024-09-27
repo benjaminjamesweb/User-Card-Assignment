@@ -1,0 +1,25 @@
+.employee-card-div {
+    background-color: rgb(197, 197, 197);
+    min-width: 20vw;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+}
+
+.employee-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
